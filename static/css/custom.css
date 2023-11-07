@@ -1,10 +1,10 @@
 /* Custom CSS styles */
 :root {
-    --main: #383838;
-    --main-light: #ffffff;
+    --main: #565656;
+    --main-light: #efefef;
     --dark: #eeeeee;
     --dark-light: #1b1b1b;
-    --white: #383838;
+    --white: #565656;
     --grey: rgb(167 167 167);
 }
 
@@ -16,7 +16,9 @@ a:hover, a.active {
 .welcome-title {
   
         font-family: 'GreatVibes';
-        font-size: x-large
-    
+        font-size: 1.3em;
+}
 
+img.logo {
+    height: 60%;
 }
