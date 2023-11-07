@@ -13,7 +13,10 @@ a:hover, a.active {
     padding-bottom: 3px;
 }
 
-body {
-    font-family: "Mrs Saint Delafield Regular" !important;
-    font-size: medium;
+.welcome-title {
+  
+        font-family: 'GreatVibes';
+        font-size: x-large
+    
+
 }
