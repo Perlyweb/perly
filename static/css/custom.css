@@ -2,7 +2,7 @@
 :root {
     --main: #383838;
     --main-light: #ffffff;
-    --dark: #b9b9b9;
+    --dark: #eeeeee;
     --dark-light: #1b1b1b;
     --white: #383838;
     --grey: rgb(167 167 167);
@@ -11,4 +11,9 @@
 a:hover, a.active {
     border-bottom: 1px solid var(--main);
     padding-bottom: 3px;
+}
+
+body {
+    font-family: "Mrs Saint Delafield Regular" !important;
+    font-size: medium;
 }
