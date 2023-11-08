@@ -25,7 +25,7 @@
                             {{ $active = "active" }}
                         {{ end }}
                         <a class="{{ $active }}" href="{{ $el.URL }}">{{ $el.Name }}</a>
-                        {{ if ne $i $lastIndex }} ] {{ end }}
+                        {{ if ne $i $lastIndex }} ) {{ end }}
                     {{ end }}
                 </div>
             {{ end }}
