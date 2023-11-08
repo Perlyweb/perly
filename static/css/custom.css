@@ -11,35 +11,43 @@
 
 .welcome-title {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-family: 'GreatVibes Regular';
-}
+   
 
-a:hover, a.active {
-    border-bottom: 1px solid var(--main);
-    padding-bottom: 3px;
 }
 
 nav.navbar {
-  padding-top: 1.5em;
+  
+    margin-top: 2em;
+}
+
+
+
+
+a:hover, a.active {
+    border-bottom: 1px solid var(--main);
+
 }
 
 div.logo {
-    height: 3rem;
+    height: 0rem;
     visibility: hidden;
 }
 
-@media (max-width: 1024px)
-div.logo {
-    margin-bottom: 10px;
-}
 
 @media (max-width: 1024px)
 div.logo {
-    height: 4rem;
-}
-
-.a-clean:hover, a-clean.active {
-    border-bottom: unset;
     margin-bottom: 0px;
+}
+
+@media (max-width: 1024px)
+div.logo {
+    height: 0rem;
+}
+
+@media (max-width: 1024px)
+nav.navbar {
+   
+    padding-top: 1em !important;
 }
