@@ -1,4 +1,5 @@
 /* Custom CSS styles */
+
 :root {
     --main: #565656;
     --main-light: #efefef;
@@ -8,20 +9,19 @@
     --grey: rgb(167 167 167);
 }
 
+.welcome-title {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'GreatVibes Regular';
+}
+
 a:hover, a.active {
     border-bottom: 1px solid var(--main);
     padding-bottom: 3px;
 }
 
-.welcome-title {
-  
-        font-family: 'GreatVibes';
-        font-size: 1.3em;
-}
-
 nav.navbar {
-  
-    padding-top: 1.5em;
+  padding-top: 1.5em;
 }
 
 div.logo {
@@ -37,6 +37,4 @@ div.logo {
 @media (max-width: 1024px)
 div.logo {
     height: 4rem;
-    
-    
 }
