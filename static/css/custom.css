@@ -17,17 +17,20 @@
 
 }
 
-nav.navbar {
-  
-    margin-top: 2em;
-}
-
-
-
-
 a:hover, a.active {
     border-bottom: 1px solid var(--main);
 
+}
+
+.navbar-middle {
+    
+    padding-top: 1em;
+}
+
+nav.navbar {
+    
+    min-height: 7.25rem;
+    
 }
 
 div.logo {
@@ -41,13 +44,3 @@ div.logo {
     margin-bottom: 0px;
 }
 
-@media (max-width: 1024px)
-div.logo {
-    height: 0rem;
-}
-
-@media (max-width: 1024px)
-nav.navbar {
-   
-    padding-top: 1em !important;
-}

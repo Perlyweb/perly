@@ -6,7 +6,12 @@
         display: grid;
         justify-content: center;
         height: 15rem;
-        padding: 30px;
+        padding-top: 1em !important;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom 30px;
+        min-height: 7.25rem;
+        
     }
 
     .slide-info {
@@ -15,7 +20,7 @@
     }
 
     div.logo {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
 
     .social {
@@ -66,4 +71,6 @@
     .work-width {
         width: unset;
     }
+    
+    .
 }
