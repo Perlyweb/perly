@@ -8,6 +8,10 @@
         margin-top: 10px;
     }
 
+    .menu {
+        font-size: 0.8rem;
+    }
+
     #desktop {
         display: none;
     }
