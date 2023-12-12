@@ -40,10 +40,7 @@ body {
 }
 
 
-@media (max-width: 1024px)
-div.logo {
-    margin-bottom: 0px;
-}
+
 
 .footer {
     background-color: #c4c8cc;
